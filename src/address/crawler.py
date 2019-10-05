@@ -37,7 +37,7 @@ def prefectures():
   df.to_csv("data/prefectures.csv", index=False)
   print(f"prefectures end : {now()}")
 
-  # cities(sub_urls)
+  cities(sub_urls)
 
 def cities(urls: list):
   print(f"cities start : {now()}")
